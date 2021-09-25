@@ -20,7 +20,7 @@ const Home = () => {
         <div className='container'>
             <div className="row">
                 <div className="col-lg-9">
-                    <div className='row row-cols-1 row-cols-md-3 g-4'>
+                    <div className='row row-cols-1 row-cols-md-3 g-2'>
                         {
                             students.map(student =>
                                 <Students

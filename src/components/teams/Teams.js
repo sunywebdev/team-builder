@@ -3,11 +3,14 @@ import React from 'react';
 const Teams = (props) => {
     console.log(props);
     const { list } = props
-
+    let total = 0
+    for (const student of list) {
+        total = student.price + total
+    }
     return (
         <div>
             <h1>{list.length}</h1>
-
+            <h2>{total}</h2>
             <ul>
                 {
                     list.map(student =>

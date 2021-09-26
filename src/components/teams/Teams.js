@@ -3,6 +3,7 @@ import React from 'react';
 const Teams = (props) => {
 
     const { list } = props
+
     let total = 0
     for (const student of list) {
         total = student.budget + total

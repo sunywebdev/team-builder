@@ -11,12 +11,12 @@ const Teams = (props) => {
         <div>
             <table class="table">
                 <tr>
-                    <td><i class="fas fa-users"></i> Total Students : </td>
-                    <td> {list.length}</td>
+                    <td><i class="fas fa-users"></i>Total Students : </td>
+                    <td className='fw-bold' style={{ color: '#FE676D' }}> {list.length}</td>
                 </tr>
                 <tr>
-                    <td>Total Money : </td>
-                    <td>{total}</td>
+                    <td><i class="fas fa-dollar-sign"></i>Total Money : </td>
+                    <td className='fw-bold' style={{ color: '#FE676D' }}>{total}</td>
                 </tr>
             </table>
 
@@ -28,8 +28,8 @@ const Teams = (props) => {
                                 <div className="col-md-4">
                                     <img src={student.img} className="img-fluid" alt="..." />
                                 </div>
-                                <div className="col-md-8">
-                                    <p>{student.name}</p>
+                                <div className="col-md-8 d-flex align-items-center ps-2" style={{ color: '#FE676D' }}>
+                                    <h6>{student.name}</h6>
                                 </div>
                             </div>
                         </div>

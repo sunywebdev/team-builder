@@ -28,7 +28,7 @@ const Students = (props) => {
                             </tr>
                             <tr>
                                 <td>Fee</td>
-                                <td>{budget}</td>
+                                <td>$ {budget}</td>
                             </tr>
                         </tbody>
                     </table>

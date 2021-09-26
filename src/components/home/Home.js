@@ -15,7 +15,6 @@ const Home = () => {
         const newlist = [...list, student]
         setList(newlist)
     }
-
     return (
         <div className='container'>
             <div className="row g-1">
@@ -24,7 +23,7 @@ const Home = () => {
                         {
                             students.map(student =>
                                 <Students
-                                    key={student.key}
+                                    key={student.mobile}
                                     student={student}
                                     addToList={addToList}
                                 ></Students>
@@ -35,7 +34,7 @@ const Home = () => {
 
                 </div>
                 <div className="col-lg-2">
-                    <div className="sticky-top">
+                    <div className="">
                         <Teams
                             list={list}
                         ></Teams>

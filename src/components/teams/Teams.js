@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Teams = (props) => {
-    console.log(props);
+    
     const { list } = props
     let total = 0
     for (const student of list) {
-        total = student.price + total
+        total = student.budget + total
     }
     return (
         <div>

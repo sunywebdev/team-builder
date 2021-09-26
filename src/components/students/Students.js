@@ -2,7 +2,7 @@ import React from 'react';
 import './Students.css'
 
 const Students = (props) => {
-    const { name, semester, department, roll, budget, img } = props.student
+    const { name, semester, department, roll, budget, img, facebook, mobile, email } = props.student
     return (
         <div className="col">
             <div className="card h-100 text-start p-2">
@@ -33,26 +33,13 @@ const Students = (props) => {
                         </tbody>
                     </table>
                     <div className="text-center my-1">
-                        <button type="button" className="btn rounded-circle m-2"> <i className="fab fa-facebook"></i> </button>
-                        <button type="button" className="btn rounded-circle m-2"> <i className="fas fa-phone-alt"></i> </button>
-                        <button type="button" className="btn rounded-circle m-2"> <i className="fas fa-sms"></i> </button>
+                        <a href={facebook} type="button" className="btn rounded-circle m-2"> <i className="fab fa-facebook"></i> </a>
+                        <a href={mobile} type="button" className="btn rounded-circle m-2"> <i className="fas fa-phone-alt"></i> </a>
+                        <a href={email} type="button" className="btn rounded-circle m-2"> <i className="fas fa-at"></i> </a>
                     </div>
                 </div>
                 <button onClick={() => props.addToList(props.student)} className='btn w-75 mx-auto'>Add To Team</button>
             </div>
-            {/*             <div className="card h-100 text-start">
-                <img src={img} className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <p>Name: {name}</p>
-                    <p>Department : {seller}</p>
-                    <p>Roll No: {key}</p>
-                    <p>Budget: {price}</p>
-                    <div className="text-center">
-
-                    </div>
-                </div>
-                <button onClick={() => props.addToList(props.student)} className='btn btn-success w-75 my-3 mx-auto'>Add To Team</button>
-            </div> */}
         </div>
     );
 };

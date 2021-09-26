@@ -9,15 +9,18 @@ const Teams = (props) => {
     }
     return (
         <div>
-            <table class="table">
-                <tr>
-                    <td><i class="fas fa-users"></i>Total Students : </td>
-                    <td className='fw-bold' style={{ color: '#FE676D' }}> {list.length}</td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-dollar-sign"></i>Total Money : </td>
-                    <td className='fw-bold' style={{ color: '#FE676D' }}>{total}</td>
-                </tr>
+            <table className="table">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td><i className="fas fa-users"></i>Total Students : </td>
+                        <td className='fw-bold' style={{ color: '#FE676D' }}> {list.length}</td>
+                    </tr>
+                    <tr>
+                        <td><i className="fas fa-dollar-sign"></i>Total Money : </td>
+                        <td className='fw-bold' style={{ color: '#FE676D' }}>{total}</td>
+                    </tr>
+                </tbody>
             </table>
 
             <ul>

@@ -12,7 +12,7 @@ const Home = () => {
 
     const [list, setList] = useState([])
     const addToList = (student) => {
-        let filteredList = list.filter(std => std.name !== student.name);
+        let filteredList = list.filter(std => std.name !== student.name)
         const newlist = [...filteredList, student]
         setList(newlist)
     }

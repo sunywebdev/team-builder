@@ -1,6 +1,6 @@
 <h1>Team Builder for final project</h1>
 
-This site hosted live on <a href='https://superhero-team-suny.netlify.app/'>Click Here</a>
+This site is hosted live <a href='https://superhero-team-suny.netlify.app/'> Here</a>
 
 Features :-
 <ul>

@@ -1,0 +1,33 @@
+.card{
+     border:2px solid #FE676D;
+     transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 #FE676D, 0 6px 20px 0 #FE676D;
+}
+img{
+    border:3px solid #FE676D;
+}
+td{
+border-bottom:0;
+padding: 0 5px 0 5px !important;
+}
+tr td:nth-child(1) {
+    color: #FE676D;
+       border-right:2px solid #FE676D;
+  text-align: right;
+  font-weight: bold !important;
+}
+tr td:nth-child(2) {
+  text-align: left;
+}
+.fab,.fas{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    background-color: #FE676D;
+    color: #fff;
+    border:0 !important;
+}

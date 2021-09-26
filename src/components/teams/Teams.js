@@ -9,19 +9,19 @@ const Teams = (props) => {
     }
     return (
         <div>
-            <h1>{list.length}</h1>
-            <h2>{total}</h2>
+            <p>Total Students : {list.length}</p>
+            <p>Total Money : {total}</p>
             <ul>
                 {
                     list.map(student =>
-                        <div className="card mb-3">
+                        <div className="card mb-1">
                             <div className="row g-0">
                                 <div className="col-md-4">
                                     <img src={student.img} className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
-                                        <h5 className="card-title">{student.name}</h5>
+                                        <p>{student.name}</p>
                                     </div>
                                 </div>
                             </div>

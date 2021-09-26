@@ -6,7 +6,7 @@ const Students = (props) => {
     return (
         <div className="col">
             <div className="card h-100 text-start p-2">
-                <img src={img} className="img img-fluid rounded-circle mx-auto mb-3 mt-1" alt="..." style={{ width: '100px' }} />
+                <img src={img} className="img img-fluid rounded-circle mx-auto mb-3 mt-1" alt={name} style={{ width: '100px' }} />
                 <div className="card-body p-0">
                     <table className="table m-0" >
                         <thead></thead>

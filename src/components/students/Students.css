@@ -8,6 +8,12 @@
 .img{
     border:3px solid #FE676D;
 }
+@media (max-width: 576px) {
+  ul{
+    padding: 0 !important;
+}  
+}
+
 td{
 border-bottom:0;
 padding: 0 5px 0 5px !important;

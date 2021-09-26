@@ -26,7 +26,7 @@ const Teams = (props) => {
             <ul>
                 {
                     list.map(student =>
-                        <div className="mb-1" style={{ border: '3px solid #FE676D' }}>
+                        <div className="mb-1" style={{ border: '3px solid #FE676D' }} key={student.mobile}>
                             <div className="row g-0">
                                 <div className="col-md-4">
                                     <img src={student.img} className="img-fluid" alt="..." />

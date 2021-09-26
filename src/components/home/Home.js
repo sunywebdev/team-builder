@@ -30,15 +30,11 @@ const Home = () => {
                             )
                         }
                     </div>
-
-
                 </div>
                 <div className="col-lg-2">
-                    <div className="">
                         <Teams
                             list={list}
                         ></Teams>
-                    </div>
                 </div>
             </div>
         </div>

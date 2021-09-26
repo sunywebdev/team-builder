@@ -7,7 +7,8 @@
       "semester": "5th ",
       "department": "Computer",
       "roll": 172021,
-      "budget": 100
+      "budget": 100,
+      "img": "./jsonPhotos/Rabbi.jpg"
    },
    {
       "email": "mailto:nizam7comilla@gmail.com",
@@ -17,7 +18,8 @@
       "semester": "5th ",
       "department": "Computer ",
       "roll": 172032,
-      "budget": 200
+      "budget": 200,
+      "img": "./jsonPhotos/nizam.jpg"
    },
    {
       "email": "mailto:abdulkhalek33981@gmail.com",
@@ -27,7 +29,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171968,
-      "budget": 100
+      "budget": 100,
+      "img": "./jsonPhotos/khalek.jpg"
    },
    {
       "email": "mailto:monirulislam554478@gmail.com",
@@ -37,7 +40,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 182145,
-      "budget": 500
+      "budget": 500,
+      "img": "./jsonPhotos/monir.jpg"
    },
    {
       "email": "mailto:gourabbaruactg@gmail.com",
@@ -47,7 +51,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 172023,
-      "budget": 400
+      "budget": 400,
+      "img": "./jsonPhotos/gourob.jpg"
    },
    {
       "email": "mailto:sadmanalisrar1@gmail.com",
@@ -57,7 +62,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171928,
-      "budget": 786
+      "budget": 786,
+      "img": "./jsonPhotos/sadman.jpg"
    },
    {
       "email": "mailto:ahsanfaisal665@gmail.com",
@@ -67,7 +73,8 @@
       "semester": "5th",
       "department": "Computer ",
       "roll": 172020,
-      "budget": 502
+      "budget": 502,
+      "img": "./jsonPhotos/mustafa.jpg"
    },
    {
       "email": "mailto:mahimmohammadawal@gmail.com",
@@ -77,7 +84,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 172030,
-      "budget": 686
+      "budget": 686,
+      "img": "./jsonPhotos/mahim.jpg"
    },
    {
       "email": "mailto:jinnatarachumki@gmail.com",
@@ -87,7 +95,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171938,
-      "budget": 766
+      "budget": 766,
+      "img": "./jsonPhotos/jinnat.jpg"
    },
    {
       "email": "mailto:safayet497@gmail.com",
@@ -97,7 +106,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 172016,
-      "budget": 587
+      "budget": 587,
+      "img": "./jsonPhotos/safayet.jpg"
    },
    {
       "email": "mailto:mdyasdx04@gmail.com",
@@ -107,7 +117,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171994,
-      "budget": 687
+      "budget": 687,
+      "img": "./jsonPhotos/yasin.jpg"
    },
    {
       "email": "mailto:ashraf.bd328@gmail.com",
@@ -117,7 +128,8 @@
       "semester": "5th",
       "department": "Coumputer",
       "roll": 181145,
-      "budget": 456
+      "budget": 456,
+      "img": "./jsonPhotos/ashraf.jpg"
    },
    {
       "email": "mailto:mahammadchoton@gmail.com",
@@ -127,17 +139,8 @@
       "semester": "5th",
       "department": "Computer ",
       "roll": 181144,
-      "budget": 686
-   },
-   {
-      "email": "mailto:mdshiponahmed8907@gmail.com",
-      "name": "Shipon Ahmed",
-      "mobile": "tel:01715810788",
-      "facebook": "https://www.facebook.com/mdshipon.mdshipon.1612",
-      "semester": "5th",
-      "department": "Computer",
-      "roll": 171930,
-      "budget": 686
+      "budget": 686,
+      "img": "./jsonPhotos/ibne kashem.jpg"
    },
    {
       "email": "mailto:kazinova787@gmail.com",
@@ -147,17 +150,8 @@
       "semester": "5th",
       "department": "Computer ",
       "roll": 172002,
-      "budget": 464
-   },
-   {
-      "email": "mailto:munnif51@gmail.com",
-      "name": "Farhana Munni",
-      "mobile": "tel:01890846734",
-      "facebook": "https://www.facebook.com/md.nahire",
-      "semester": "5th",
-      "department": "Computer",
-      "roll": 171950,
-      "budget": 546
+      "budget": 464,
+      "img": "./jsonPhotos/nova.jpg"
    },
    {
       "email": "mailto:junto5512@gmail.com",
@@ -167,17 +161,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 172024,
-      "budget": 654
-   },
-   {
-      "email": "mailto:islamsaidulak212@gmail.com",
-      "name": "Saidul Islam ",
-      "mobile": "tel:01818648212",
-      "facebook": "https://www.facebook.com/profile.php?id=100008677241041",
-      "semester": "5th",
-      "department": "Computer",
-      "roll": 171923,
-      "budget": 874
+      "budget": 654,
+      "img": "./jsonPhotos/junto.jpg"
    },
    {
       "email": "mailto:shorafulhoque2000@gmail.com",
@@ -187,17 +172,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171954,
-      "budget": 776
-   },
-   {
-      "email": "mailto:princessdutta1995@gmail.com",
-      "name": "Rajlaxmi Dutta",
-      "mobile": "tel:1737394904",
-      "facebook": "https://www.facebook.com/rajlaxmi.dutta.79656",
-      "semester": "5th",
-      "department": "Computer",
-      "roll": 171922,
-      "budget": 565
+      "budget": 776,
+      "img": "./jsonPhotos/shoraful.jpg"
    },
    {
       "email": "mailto:tareqhossen.sijan@gmail.com",
@@ -207,7 +183,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171977,
-      "budget": 666
+      "budget": 666,
+      "img": "./jsonPhotos/tareq.jpg"
    },
    {
       "email": "mailto:minhazmahbub530@gmail.com",
@@ -217,7 +194,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171988,
-      "budget": 767
+      "budget": 767,
+      "img": "./jsonPhotos/minhaz.jpg"
    },
    {
       "email": "mailto:joytu69@gmail.com",
@@ -227,7 +205,8 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 172004,
-      "budget": 666
+      "budget": 666,
+      "img": "./jsonPhotos/joytu.jpg"
    },
    {
       "email": "mailto:mdyeasinkhan4@gmail.com",
@@ -237,36 +216,7 @@
       "semester": "5th",
       "department": "Computer",
       "roll": 171969,
-      "budget": 867
-   },
-   {
-      "email": "mailto:anydey999@gmail.com",
-      "name": "Any dey",
-      "mobile": "tel:01839362439",
-      "facebook": "https://www.facebook.com/any.dey.982",
-      "semester": "5th",
-      "department": "Computer ",
-      "roll": 171926,
-      "budget": 676
-   },
-   {
-      "email": "mailto:shatu905@gmail.com",
-      "name": "Shatu Das",
-      "mobile": "tel:01624053897",
-      "facebook": "https://www.facebook.com/shatu.das.3511",
-      "semester": "5th",
-      "department": "Computer ",
-      "roll": 171959,
-      "budget": 676
-   },
-   {
-      "email": "mailto:taniajakia09@gmail.com",
-      "name": "Jakia Khanam ",
-      "mobile": "tel:01833480496",
-      "facebook": "https://www.facebook.com/jakia.khanam.54",
-      "semester": "5th",
-      "department": "Computer ",
-      "roll": 171987,
-      "budget": 678
+      "budget": 867,
+      "img": "./jsonPhotos/yeasin.jpg"
    }
 ]

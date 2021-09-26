@@ -6,7 +6,7 @@ const Students = (props) => {
     return (
         <div className="col">
             <div className="card h-100 text-start p-2">
-                <img src={img} className="img-fluid rounded-circle mx-auto mb-3 mt-1" alt="..." style={{ width: '100px' }} />
+                <img src={img} className="img img-fluid rounded-circle mx-auto mb-3 mt-1" alt="..." style={{ width: '100px' }} />
                 <div className="card-body p-0">
                     <table className="table m-0" >
                         <tbody>
@@ -38,7 +38,7 @@ const Students = (props) => {
                         <a href={email} type="button" className="btn rounded-circle m-2"> <i className="fas fa-at"></i> </a>
                     </div>
                 </div>
-                <button onClick={() => props.addToList(props.student)} className='btn w-75 mx-auto'>Add To Team</button>
+                <button onClick={() => props.addToList(props.student)} className='btn w-75 mx-auto'><i class="fas fa-user-plus me-2"></i>Add To Team</button>
             </div>
         </div>
     );

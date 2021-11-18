@@ -1,6 +1,7 @@
 <h1>Team Builder for final project</h1>
 
 This site is hosted live <a href='https://team-builder-suny.netlify.app'> Here</a>
+<small>This site made for Programming Hero Web Development Course Assignment</small>
 
 Features :-
 <ul>
